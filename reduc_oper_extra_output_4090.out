@@ -1,0 +1,24 @@
+Ejecutando el notebook con 5*10**8 elementos
+El valor de 'value' es: 500000000
+
+Apartado utilizando multiprocesing
+
+Resultado usando 1 proceso: [124999999750000000], Tiempo: 28.5414 segundos
+Resultado usando 2 procesos: [31249999875000000, 93749999875000000], Tiempo: 15.8970 segundos
+Resultado usando 4 procesos: [7812499937500000, 23437499937500000, 39062499937500000, 54687499937500000], Tiempo: 9.7294 segundos
+
+ Apartado utilizando la función sum_multiprocesing
+Suma total con 1 proceso: 124999999750000000
+
+Tiempo con 1 proceso: 54.4243 segundos
+
+Suma total con 2 procesos: 124999999750000000
+
+Tiempo con 2 procesos: 31.6213 segundos
+
+Suma desde 0 hasta 125000000 = 7812499937500000
+Suma desde 250000000 hasta 375000000 = 39062499937500000
+Suma total con 4 procesos: 124999999750000000
+
+Tiempo con 4 procesos: 19.9384 segundos
+
