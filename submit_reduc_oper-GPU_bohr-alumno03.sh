@@ -27,6 +27,6 @@ ipython $NOTEBOOK $((5*10**7))
 echo "Ejecutando el notebook con 5*10**8 elementos"
 ipython $NOTEBOOK $((5*10**8))
 
-#Descargando los módulos
+#Quitando los módulos
 module unload anaconda/2023.03
 module unload cuda/12.3
