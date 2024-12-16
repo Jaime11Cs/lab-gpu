@@ -3,6 +3,7 @@
 #SBATCH --chdir=/home/alumno03/lab-gpu
 #SBATCH --cpus-per-task=1
 #SBATCH --output=/home/alumno03/lab-gpu/slurm-%j.out
+#SBATCH --ntasks=4
 
 #Cargar el módulo Anaconda
 module load anaconda/2023.03
