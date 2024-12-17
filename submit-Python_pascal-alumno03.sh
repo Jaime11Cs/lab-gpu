@@ -16,3 +16,5 @@ echo "Ejecutando el notebook con 5*10**7 elementos"
 ipython $NOTEBOOK $((5*10**7))
 
 echo "Ejecución completada"
+#Descargando el módulo Anaconda
+module unload anaconda/2023.03
