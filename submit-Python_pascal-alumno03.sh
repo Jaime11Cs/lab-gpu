@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH -p hpc-bio-pascal
 #SBATCH --chdir=/home/alumno03/lab-gpu
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=4
 #SBATCH --output=/home/alumno03/lab-gpu/slurm-%j.out
 #SBATCH --ntasks=4
 
