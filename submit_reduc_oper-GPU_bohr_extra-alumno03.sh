@@ -3,7 +3,7 @@
 #SBATCH --output=reduc_oper_extra_output_%j.out
 #SBATCH --time=01:00:00
 #SBATCH --partition=bohr-gpu
-#SBATCH --cpus-per-task=1
+#SBATCH --cpus-per-task=4
 #SBATCH --ntasks=1
 #SBATCH --mem=8G
 
